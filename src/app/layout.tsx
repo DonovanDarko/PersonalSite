@@ -5,9 +5,9 @@ import { cookies } from "next/headers";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Abhishek Chadha | Blog & Portfolio",
+  title: "Arjun Pravin | Resume & Portfolio",
   description:
-    "Abhishek is a full stack software engineer from New Delhi with over 10 years of experience, specialized in B2C products.",
+    "Arjun is a software engineer from Niagara Falls with over 10 years of experience, specialized in process .",
   icons: ["/logo.svg"],
   openGraph: {
     images: ["/og"],

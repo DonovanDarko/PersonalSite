@@ -33,9 +33,9 @@ export function Splash({}) {
         >
           Hey there!{" "}
           <b className="whitespace-nowrap">
-            <span className="font-normal">{"I'm"}</span> Abhishek
+            <span className="font-normal">{"I'm"}</span> Arjun
           </b>
-          . <br /> I design and build software products.
+          . <br /> I design and build software solutions.
         </motion.div>
       </div>
       <motion.div

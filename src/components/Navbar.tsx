@@ -44,7 +44,7 @@ export function Navbar({ theme, onToggleClicked }) {
         >
           About Me
         </Link>
-
+{/*
         <Link href="/blog" as={"/blog"}>
           <div
             className={clsx("btn hover:bg-base-100 btn-ghost w-full", {
@@ -54,8 +54,18 @@ export function Navbar({ theme, onToggleClicked }) {
             Blog
           </div>
         </Link>
+*/}
+        <Link href="/kudos" as={"/kudos"}>
+          <div
+            className={clsx("btn hover:bg-base-100 btn-ghost w-full", {
+              " bg-base-100 bg-opacity-90": pathName.startsWith("/kudos"),
+            })}
+          >
+            Kudos
+          </div>
+        </Link>
       </div>
-      <div className="w-14 h-8">
+      <div className="w-14 h-8"> {/* light/dark mode */}
         <label className="swap swap-rotate">
           {/* this hidden checkbox controls the state */}
           <input
